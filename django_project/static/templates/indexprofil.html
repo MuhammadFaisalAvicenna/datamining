@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Faisal Avicenna</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    {%load static%}
+    <link rel="stylesheet" href="{%static 'style.css'%}">
+
+    <!-- Icon Website-->
+    <link href="image/68822 (2).JPG" rel="shortcut icon">
+
+</head>
+<body>
+
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div class="user">
+        {%load static%}      
+        <img src="{%static '68822 (2).JPG'%}" alt="">
+        <h3 class="name">Muhammad<span> Faisal</span> Avicenna</h3>
+        <p class="post">Mahasiswa <span>Teknik Informatika</span></p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Peminjaman Uang</a></li>
+            <li><a href="#about">about</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+<main>
+    
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <h3>Haii Guys!</h3>
+        <h1> Saya <span> Muhammad Faisal Avicenna</span></h1>
+        <p>Seorang mahasiswa dari Universitas Trunojoyo Madura, memiliki hobi main game dan suka belajar tentang hal yang baru, Bercita cita menjadi Content Creator</p>
+        <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <aside class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> me </h1>
+
+    <div class="row">
+
+        <div class="info">
+            <h3> <span> Nama : </span> Muhammad Faisal Avicenna </h3>
+            <h3> <span> NIM : </span> 210411100242 </h3>
+            <h3> <span> Pekerjaan : </span> Mahasiswa </h3>
+            <h3> <span> Bahasa : </span> Indonesia </h3>
+        </div>
+
+    </div>
+    </aside>
+
+
+    <!-- about aside ends -->
+  
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="{%static 'script.js'%}"></script>
+
+</main>
+
+<footer>
+    <p><a href="#" rel="nofollow">Muhammad Faisal Avicenna | 2022</a></p>
+</footer>
+
+
+</body>
+</html>
